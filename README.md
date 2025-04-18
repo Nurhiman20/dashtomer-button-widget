@@ -19,7 +19,7 @@ A lightweight, embeddable Vue 3 component that renders a customizable button, in
 Example of loading from a hosted version:
 
 ```html
-<script src="https://your-cdn.com/my-button-widget.umd.js"></script>
+<script src="https://adorable-pie-0f1383.netlify.app/my-button-widget.umd.js"></script>
 ```
 
 ---
