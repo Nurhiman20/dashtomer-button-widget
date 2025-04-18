@@ -1,6 +1,3 @@
-
----
-
 # 📦 MyButtonWidgetLib
 
 A lightweight, embeddable Vue 3 component that renders a customizable button, intended for easy integration into third-party applications via a simple `<script>` tag.
@@ -92,3 +89,12 @@ This component leverages **Vue 3**, which internally uses a **Virtual DOM** arch
 - No separate `.css` file is generated — styles are injected into the document at runtime with the widget.
 
 ---
+
+## Run Test using Vitest
+
+```bash
+npm run test
+```
+
+---
+
