@@ -20,4 +20,7 @@ export default defineConfig({
         cssCodeSplit: false,
         minify: 'terser',
     },
-});
+    define: {
+        'process.env.NODE_ENV': JSON.stringify('production')
+    }
+})
