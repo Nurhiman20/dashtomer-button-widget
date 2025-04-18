@@ -1,8 +1,11 @@
 import { createApp } from 'vue'
-import MyButtonWidget from './components/MyButtonWidget.vue'
+import MyButton from './components/MyButtonWidget.vue'
 
 function mount(el, props) {
-    createApp(MyButtonWidget, props).mount(el)
+    createApp(MyButton, props).mount(el)
 }
 
-window.MyButtonWidgetLib = { mount }
+// Expose to global window object
+if (typeof window !== 'undefined') {
+    window.MyButtonWidgetLib = { mount }
+}
