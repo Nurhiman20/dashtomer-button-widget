@@ -1,9 +1,7 @@
 <template>
-  <div class="my-widget-container">
-    <button class="my-widget-button" @click="handleClick">
-      {{ buttonText }}
-    </button>
-  </div>
+  <button class="my-widget-button" @click="handleClick">
+    {{ buttonText }}
+  </button>
 </template>
 
 <script setup>
@@ -20,13 +18,6 @@ function handleClick() {
 </script>
 
 <style scoped>
-.my-widget-container {
-  display: inline-block;
-  padding: 10px;
-  border: 2px solid #42b983;
-  border-radius: 8px;
-  background: #f0f9f5;
-}
 .my-widget-button {
   background: #42b983;
   color: white;
